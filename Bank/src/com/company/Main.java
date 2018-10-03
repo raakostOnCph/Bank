@@ -117,7 +117,7 @@ public class Main {
 
         for (Konto k : kontoArrayList
         ) {
-            if (k.getPerson().getName().equalsIgnoreCase(cpr)) {
+            if (k.getPerson().getCpr().equalsIgnoreCase(cpr)) {
                 return k;
             }
 
