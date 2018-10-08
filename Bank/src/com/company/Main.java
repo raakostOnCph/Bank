@@ -16,11 +16,19 @@ public class Main {
     public static void main(String[] args) {
 
 
+        //todo 1. en kort præsentation af projektet , en gennemgang af de ting der allerede er lavet af metoder.
+
+
+
+        Konto konto = new Konto(new Person("noller", "313"));
+
+
+
         // start med at lave et par kontoobjekter og leg lidt med dem dvs. hæv og indsæt penge, udskriv navn osv.
         // du kan evt. overloade konstruktøren i klassen Konto, så du ikke behøver at angive noget beløb så den blot sætte til 0.
-        // Lav en funktion "udskrivPerson" som udskriver alle felterne i klassen Person.
-        // lav derfter en funktion "print" i klassen Konto der udskriver alle kontoens felter også person. Se om du
-        // ikke kan udnytte din udskrivPerson du allerede har lavet i klassen Person.
+        // Lav en funktion "udskrivPerson" som udskriver alle felterne i klassen Person pænt..
+        // lav derfter en funktion "print" i klassen Konto der udskriver alle kontoens felter også dem klassen person. Se om du
+        // ikke kan udnytte din udskrivPerson du allerede har lavet.
 
         // prøv nu at indsætte et par kontoer i vores kontoArrayList.
 
@@ -80,6 +88,8 @@ public class Main {
                 case "indsæt":
                     System.out.println("Den her funktion skal indsætte et angivet beløb på en angivet konto, men den er ikke lavet endnu \n\n");
                     break;
+                case "overflyt":
+                    System.out.println("lav en funktion der kan overflytte penge fra en angivet konto til en anden ");
 
                 default:
                     System.out.println("Denne her er lavet, men den gør ikke noget ! \n\n");
@@ -98,10 +108,9 @@ public class Main {
 
     }
 
+
+    // todo Det er så her vi starter.
     public void opretKonto( String name, String cpr){
-
-
-
 
 
     }

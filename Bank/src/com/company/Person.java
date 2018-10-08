@@ -19,5 +19,5 @@ public class Person {
     }
 
 
-    // todo lave en funktion der kan udskrive personoplysningerne.
+    // todo lave en funktion der kan udskrive personoplysningerne. Den skal returnere en string til main.
 }
