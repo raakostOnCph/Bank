@@ -18,6 +18,11 @@ public class Konto {
     /*todo. Overload konstruktøren så man kan lave en konto uden at angive et beløb. saldo sættes  da til nul.*/
 
 
+    public Konto(Person person) {
+        this.person = person;
+        this.saldo = 0;
+    }
+
     public Person getPerson() {
         return person;
     }
@@ -27,6 +32,8 @@ public class Konto {
     }
 
 
+
+    // todo funktionen er ikke hensigtsmæssigt lavet, da man kan hæve et negativt beløb. Kan du fixe det ?
     public int hæv(int beløb) {
 
         saldo = saldo - beløb;
@@ -35,7 +42,7 @@ public class Konto {
 
     }
 
-
+    // todo funktionen er ikke hensigtsmæssigt lavet, da man kan indsætte et negativt beløb. Kan du fixe det ?
     public int indsæt(int beløb) {
 
         saldo = saldo + beløb;

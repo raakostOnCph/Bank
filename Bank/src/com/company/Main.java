@@ -1,5 +1,7 @@
 package com.company;
 
+import com.sun.xml.internal.bind.v2.TODO;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -16,9 +18,9 @@ public class Main {
 
         // start med at lave et par kontoobjekter og leg lidt med dem dvs. hæv og indsæt penge, udskriv navn osv.
         // du kan evt. overloade konstruktøren i klassen Konto, så du ikke behøver at angive noget beløb så den blot sætte til 0.
-        // Lav en funktion "udskrivPerson" som alle felterne i klassen Person.
+        // Lav en funktion "udskrivPerson" som udskriver alle felterne i klassen Person.
         // lav derfter en funktion "print" i klassen Konto der udskriver alle kontoens felter også person. Se om du
-        // ikke kan udnytte det du allerede har lavet i klassen Person.
+        // ikke kan udnytte din udskrivPerson du allerede har lavet i klassen Person.
 
         // prøv nu at indsætte et par kontoer i vores kontoArrayList.
 
@@ -48,7 +50,7 @@ public class Main {
             switch (svar) {
 
                 case "opret":
-                    System.out.println("Den her funktion optette en konto og indsætter den i vores arraylist, men den er ikke lavet endnu \n\n");
+                    System.out.println("Den  funktion skal optette en konto og indsætter den i vores arraylist, men den er ikke lavet endnu \n\n");
                     break;
 
                 // her trænes gennemløb.
@@ -93,10 +95,22 @@ public class Main {
         System.out.println("bankterminalen en stoppet ");
 
 
-//    System.out.println(getTekst("skriv lige noget"));
-//    System.out.println(getTal() + 10);
 
     }
+
+    public void opretKonto( String name, String cpr){
+
+
+
+
+
+    }
+
+
+
+
+
+
 
     public static String getTekst(String s) {
 
